@@ -1,10 +1,6 @@
 body{
     background-color: aliceblue;
 }
-ul{
-    display: flex;
-    list-style-type: none;
-}
 li{
     margin: 10px;
 
@@ -13,9 +9,6 @@ li a{
     color: white;
     font-family: "Arial Rounded MT Bold";
     text-decoration: none;
-}
-header{
-    background-color: #edd749;
 }
 main{
     align-items: center;
@@ -34,17 +27,6 @@ button{
     border-radius: 5px;
     width: 250px;
     height: 25px;
-
-}
-
-footer{
-    margin-top: 20px;
-    display: flex;
-    justify-content: space-around;
-    background-color: #22C1C3;
-    color: white;
-    align-items: center;
-    font-family: "Arial Rounded MT Bold";
 }
 #game-board {
     display: grid;
@@ -104,8 +86,6 @@ footer{
     color: white;
     transform: rotateY(180deg);
 }
-
-
 .card-back img,
 .card-image {
     width: 100%;
